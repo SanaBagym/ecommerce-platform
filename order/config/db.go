@@ -12,7 +12,7 @@ func ConnectDB() (*sqlx.DB, error) {
 	port := 5432
 	user := "postgres"
 	password := "1234"
-	dbname := "order_db"
+	dbname := "inventory_db"
 
 	dsn := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable",
 		host, port, user, password, dbname)

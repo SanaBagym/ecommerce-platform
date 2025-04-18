@@ -30,5 +30,5 @@ func main() {
 	r.PATCH("/orders/:id", orderHandler.UpdateOrder)
 	r.DELETE("/orders/:id", orderHandler.DeleteOrder)
 
-	r.Run(":8081")
+	r.Run(":8082")
 }

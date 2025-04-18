@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	db, err := conf.ConnectDB()
+	db, err := conf.Connect()
 	if err != nil {
 		fmt.Println("Ошибка подключения к базе данных:", err)
 		return

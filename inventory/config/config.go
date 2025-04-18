@@ -7,7 +7,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
-func ConnectDB() (*sqlx.DB, error) {
+func Connect() (*sqlx.DB, error) {
 	host := "localhost"
 	port := 5432
 	user := "postgres"
